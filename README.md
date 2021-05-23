@@ -34,9 +34,15 @@ Flutter Embacardo :iphone: :alien:
 
 ## Sumário
 - [Iniciando...]
+- Android AAR
 
 ## Iniciando...
     Inicialmente é necessário criar o modulo flutter contendo toda a configuração de rotas e paginas do seu app flutter.
     Utilize o comando flutter create -t module --org com.demo demo_module_flutter
-    Agora com o modulo criado é necessario configurar o roteamento do app como tambem a comunicação com os method channels 
-
+    Agora com o modulo criado é necessario configurar o roteamento do app como tambem a comunicação com os method channels
+    /Acesse o codigo fonte de demonstracao/
+    
+    
+## Android AAR
+    * Uma vez que configurado o modulo flutter deve-se gerar o artefato AAR utilize o comando flutter build aar no path do seu modulo flutter.
+    * Coloque as seguintes linhas de codigo no build.gradle do app (android)
