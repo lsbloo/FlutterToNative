@@ -47,4 +47,4 @@ Flutter Embacardo :iphone: :alien:
     * Uma vez que configurado o modulo flutter deve-se gerar o artefato AAR utilize o comando flutter build aar no path do seu modulo flutter.
     * Coloque as seguintes linhas de codigo no build.gradle do app (android)
 
-![Screenshot](output_arr.png 'OutPut')
+![Screenshot](output_aar.png 'OutPut')
