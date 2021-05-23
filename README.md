@@ -19,7 +19,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
-Flutter Embacardo :books: :school:
+Flutter Embacardo :iphone: :alien:
 ====
 <p> 
     Essa POC tem como objetivo exemplificar o uso do flutter como embarcado para o Android utilizando uma arquitetura MVP e protocolo de comunicação através de method channels.
