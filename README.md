@@ -34,3 +34,9 @@ Flutter Embacardo :iphone: :alien:
 
 ## Sumário
 - [Iniciando...]
+
+## Iniciando...
+    Inicialmente é necessário criar o modulo flutter contendo toda a configuração de rotas e paginas do seu app flutter.
+    Utilize o comando flutter create -t module --org com.demo demo_module_flutter
+    Agora com o modulo criado é necessario configurar o roteamento do app como tambem a comunicação com os method channels 
+
