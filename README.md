@@ -80,5 +80,5 @@ Flutter Embacardo :iphone: :alien:
     
     * Dentro do pacote core/architeture é possivel acessar as classes de configuracao do MVP
     * Existem interfaces/classes necessarias que devem ser extendidas para serem utilizadas pela feature mvp.
-    * Como no exemplo acima para a feature home todas.
+    * Como no exemplo acima para a feature home.
     
