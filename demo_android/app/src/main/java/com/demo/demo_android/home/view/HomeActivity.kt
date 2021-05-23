@@ -20,7 +20,7 @@ class HomeActivity : BaseActivity(), HomeContract.HomeView {
         presenter = HomePresenterImpl(view = this)
 
         findViewById<Button>(R.id.button).setOnClickListener{
-            initalRouter("/helloworld")
+            callRouter("/helloworld")
             presenter.callMethodChannel()
         }
 

@@ -9,7 +9,7 @@ interface HomeContract {
 
     }
 
-    interface HomeView : BaseView{
+    interface HomeView : BaseView {
 
     }
 }

@@ -23,14 +23,14 @@ open class BaseActivity : AppCompatActivity() {
 
     }
 
-    fun initalRouter(initalRouter: String) {
+    fun callRouter(router: String) {
         if (!FLUTTER_ENGINER_START) {
             FlutterCoreEngine.start(this)
-            FlutterCoreEngine.navigator?.initalRouter(initalRouter, this)
+            FlutterCoreEngine.navigator?.callRouter(router, this)
             FLUTTER_ENGINER_START = true
 
         } else {
-            FlutterCoreEngine.navigator?.initalRouter(initalRouter, this)
+            FlutterCoreEngine.navigator?.callRouter(router, this)
         }
     }
 
