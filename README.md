@@ -23,6 +23,7 @@ Flutter Embacardo :iphone: :alien:
 ====
 <p> 
     Essa POC tem como objetivo demonstrar o uso do flutter como embarcado para o Android utilizando uma arquitetura MVP e protocolo de comunicação através de method channels.
+    * Baixe o código fonte e utilize como base para seus aplicativos! ;]
 </p>
 
 
