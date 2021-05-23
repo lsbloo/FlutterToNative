@@ -22,9 +22,63 @@ SOFTWARE.
 Flutter Embacardo :iphone: :alien:
 ====
 <p> 
-    Essa POC tem como objetivo exemplificar o uso do flutter como embarcado para o Android utilizando uma arquitetura MVP e protocolo de comunicação através de method channels.
+    Essa POC tem como objetivo demonstrar o uso do flutter como embarcado para o Android utilizando uma arquitetura MVP e protocolo de comunicação através de method channels.
+    Baixe o código fonte e utilize como base para seus aplicativos! ;]
 </p>
 
 
+## Arquitetura de Integração Android x Flutter
+
+![Screenshot](flow_flutter_native.png 'Flow')
+
+## Sumário
+- [Iniciando...]
+- Android AAR
+- Android Architeture
+
+## Iniciando...
+    Inicialmente é necessário criar o modulo flutter contendo toda a configuração de rotas e paginas do seu app flutter.
+    Utilize o comando flutter create -t module --org com.demo demo_module_flutter
+    Agora com o modulo criado é necessario configurar o roteamento do app como tambem a comunicação com os method channels
+    /Acesse o codigo fonte de demonstracao/
+    
+    
+## Android AAR
+    * Uma vez que configurado o modulo flutter deve-se gerar o artefato AAR utilize o comando flutter build aar no path do seu modulo flutter.
+    * Coloque as seguintes linhas de codigo no build.gradle do app (android)
+    * Sera necessario colocar tambem no build.gradle os filtros de ndk suportados pelo flutter
+    * Coloque dentro do defaultConfig
+    * ndk {
+            // Filter for architectures supported by Flutter.
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86_64'
+        }
+    * Dentro do settings.gradle adicione (Se não houver)
+    * setBinding(new Binding([gradle:this]))
+
+     * evaluate(new File(
+        settingsDir.parentFile,
+        'demo_module_flutter/.android/include_flutter.groovy'))
+     * Por fim, faça o sync do build gradle.
+    
+
+![Screenshot](output_aar.png 'OutPut')
+
+
+## Android Architeture
+
+![Screenshot](core.png 'Core')
+
+    * Dentro do pacote core/flutter é possivel acessar as classes de configuração android x flutter
+    * O flutterCoreEngine permite criar e inicializar o motor flutter.
+    * Esta classe depende da flutterNavigatorManager que configura o start a uma rota flutter especifica.
+    Como tambem o FlutterChannelManager que faz a comunicação bidirecional android x flutter e flutter x android
+    
+    
+![Screenshot](mvp_arch.png 'MVP')    
+    
+    * Dentro do pacote core/architeture é possivel acessar as classes de configuracao do MVP
+    * Existem interfaces/classes necessarias que devem ser extendidas para serem utilizadas pela feature mvp.
+    * Como no exemplo acima para a feature home.
+    
 
 
