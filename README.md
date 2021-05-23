@@ -71,4 +71,10 @@ Flutter Embacardo :iphone: :alien:
 
     * Dentro do pacote core/flutter é possivel acessar as classes de configuração android x flutter
     * O flutterCoreEngine permite criar e inicializar o motor flutter.
-    * Esta classe depende da flutterNavigatorManager que configura o start a uma rota flutter especifica. Como tambem o FlutterChannelManager que faz a comunicação bidirecional android x flutter e flutter x android
+    * Esta classe depende da flutterNavigatorManager que configura o start a uma rota flutter especifica.
+    Como tambem o FlutterChannelManager que faz a comunicação bidirecional android x flutter e flutter x android
+    
+    
+![Screenshot](mvp_arch.png 'MVP')    
+    
+    
