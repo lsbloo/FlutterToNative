@@ -67,4 +67,4 @@ Flutter Embacardo :iphone: :alien:
 
 ## Android Architeture
 
-
+![Screenshot](core.png 'Core')
