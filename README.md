@@ -31,3 +31,5 @@ Flutter Embacardo :iphone: :alien:
 ## Arquitetura de Integração Android x Flutter
 
 ![Screenshot](flow_flutter_native.png 'Flow')
+
+- [Iniciando...]
