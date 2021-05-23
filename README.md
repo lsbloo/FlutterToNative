@@ -46,5 +46,19 @@ Flutter Embacardo :iphone: :alien:
 ## Android AAR
     * Uma vez que configurado o modulo flutter deve-se gerar o artefato AAR utilize o comando flutter build aar no path do seu modulo flutter.
     * Coloque as seguintes linhas de codigo no build.gradle do app (android)
+    * Sera necessario colocar tambem no build.gradle os filtros de ndk suportados pelo flutter
+    * Coloque dentro do defaultConfig
+    * ndk {
+            // Filter for architectures supported by Flutter.
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86_64'
+        }
+    * Dentro do settings.gradle adicione (Se não houver)
+    * setBinding(new Binding([gradle:this]))
+
+     * evaluate(new File(
+        settingsDir.parentFile,
+        'demo_module_flutter/.android/include_flutter.groovy'))
+     * Por fim, faça o sync do build gradle.
+    
 
 ![Screenshot](output_aar.png 'OutPut')
