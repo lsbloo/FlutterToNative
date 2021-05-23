@@ -27,8 +27,6 @@ Flutter Embacardo :iphone: :alien:
 </p>
 
 
-
-
 ## Arquitetura de Integração Android x Flutter
 
 ![Screenshot](flow_flutter_native.png 'Flow')
@@ -82,3 +80,5 @@ Flutter Embacardo :iphone: :alien:
     * Existem interfaces/classes necessarias que devem ser extendidas para serem utilizadas pela feature mvp.
     * Como no exemplo acima para a feature home.
     
+
+
