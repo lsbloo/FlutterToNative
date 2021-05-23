@@ -35,6 +35,7 @@ Flutter Embacardo :iphone: :alien:
 ## Sumário
 - [Iniciando...]
 - Android AAR
+- Android Architeture
 
 ## Iniciando...
     Inicialmente é necessário criar o modulo flutter contendo toda a configuração de rotas e paginas do seu app flutter.
@@ -62,3 +63,8 @@ Flutter Embacardo :iphone: :alien:
     
 
 ![Screenshot](output_aar.png 'OutPut')
+
+
+## Android Architeture
+
+
