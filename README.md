@@ -22,12 +22,12 @@ SOFTWARE.
 Flutter Embacardo :iphone: :alien:
 ====
 <p> 
-    Essa POC tem como objetivo exemplificar o uso do flutter como embarcado para o Android utilizando uma arquitetura MVP e protocolo de comunicação através de method channels.
+    Essa POC tem como objetivo demonstrar o uso do flutter como embarcado para o Android utilizando uma arquitetura MVP e protocolo de comunicação através de method channels.
 </p>
 
 
 
 
-
+## Arquitetura de Integração Android x Flutter
 
 ![Screenshot](flow_flutter_native.png 'Flow')
